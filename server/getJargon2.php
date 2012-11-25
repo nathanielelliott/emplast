@@ -6,7 +6,6 @@ error_reporting(E_ALL);
 require_once('php/db.php');
 
 
-
 if (!$link) 
 {
     die('Could not connect: ' . mysql_error());
