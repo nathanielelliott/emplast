@@ -14,7 +14,7 @@ if (!$link)
 
 
 
-$query = "SELECT * FROM jgnEmpTest1";
+$query = "SELECT * FROM jgnEmpTest1 ORDER BY ID";
 $result = mysql_query($query, $link);
 
 $xml = new XMLWriter();

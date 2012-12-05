@@ -14,7 +14,7 @@ if (!$link) {
 
 
 
-$query = "SELECT * FROM jgnGeneric";
+$query = "SELECT * FROM jgnGeneric ORDER BY ID";
 $result = mysql_query($query, $link);
 
 $xml = new XMLWriter();
